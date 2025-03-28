@@ -1,0 +1,20 @@
+{
+    "name": "ARAEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b9d3a9368a4f5aa40a09f803441aa55b",
+        "GUID:9d4b733d1857ff641b3425efa3d58e64",
+        "GUID:9296fbad9d7939546bda2386bc7d2101"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,18 @@
+{
+    "name": "ARAWorks.Damage",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9d4b733d1857ff641b3425efa3d58e64",
+        "GUID:5b3ac5d3b0c162d4dbdfe388f04721ab",
+        "GUID:67f3f45b754fcf04b80607c56c768a69"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

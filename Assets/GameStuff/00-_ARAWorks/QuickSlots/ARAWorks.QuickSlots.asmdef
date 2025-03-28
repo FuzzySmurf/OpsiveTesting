@@ -1,0 +1,18 @@
+{
+    "name": "ARAWorks.QuickSlots",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9d4b733d1857ff641b3425efa3d58e64",
+        "GUID:05fb06c024ea2094f8b73adffe429f8a",
+        "GUID:9fc89418264c32047998ea4c7f661c34"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

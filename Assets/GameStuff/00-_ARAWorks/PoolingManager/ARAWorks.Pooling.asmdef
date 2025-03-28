@@ -1,0 +1,18 @@
+{
+    "name": "ARAWorks.Pooling",
+    "rootNamespace": "",
+    "references": [
+        "GUID:57eeec733403b0d4d8e1a837f5c155da",
+        "GUID:9d4b733d1857ff641b3425efa3d58e64",
+        "GUID:8d3a626230ebd0542af584a37fb248dd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "ARAWorks.Spawner",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9d4b733d1857ff641b3425efa3d58e64",
+        "GUID:b9d3a9368a4f5aa40a09f803441aa55b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
