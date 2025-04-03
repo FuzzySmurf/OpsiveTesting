@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8014014127322275725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  m_ID: 5
+  m_CategoryIDs: 03ae7f79
+  m_Capacity: 1
+  m_Prefabs:
+  - {fileID: 7102085059242394066, guid: 4a8b3466e1e35744bb90d9bed8563bfd, type: 3}
+--- !u!114 &-5678214650386703438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
+  m_Name: BowArrow
+  m_EditorClassIdentifier: 
+  m_ID: 6
+  m_CategoryIDs: 
+  m_Capacity: 2147483647
+  m_Prefabs: []
+--- !u!114 &-3997384751898337656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
+  m_Name: ParticleStream
+  m_EditorClassIdentifier: 
+  m_ID: 4
+  m_CategoryIDs: 03ae7f79fe26af14
+  m_Capacity: 2147483647
+  m_Prefabs:
+  - {fileID: 1246994654, guid: 1eb66277cea8ab048b0e69e97e6890d8, type: 3}
+--- !u!114 &-1742842066839469156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
+  m_Name: BreathPoison
+  m_EditorClassIdentifier: 
+  m_ID: 2
+  m_CategoryIDs: 03ae7f79
+  m_Capacity: 1
+  m_Prefabs:
+  - {fileID: 231266389, guid: bfdf7b298fd89d041969af02c573fea6, type: 3}
+--- !u!114 &-846451394959934384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
+  m_Name: Fireball
+  m_EditorClassIdentifier: 
+  m_ID: 3
+  m_CategoryIDs: 03ae7f79fe26af14
+  m_Capacity: 1
+  m_Prefabs:
+  - {fileID: 231266389, guid: c0a1b2fe296cd174a9350614072a4317, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd29761419510c7469e993b29ea117d8, type: 3}
+  m_Name: GameCollection
+  m_EditorClassIdentifier: 
+  m_Categories:
+  - {fileID: 8584090150782845643}
+  - {fileID: 546975502665252370}
+  m_ItemTypes:
+  - {fileID: 365381491533821418}
+  - {fileID: 5187172760529776352}
+  - {fileID: -1742842066839469156}
+  - {fileID: -846451394959934384}
+  - {fileID: -3997384751898337656}
+  - {fileID: -8014014127322275725}
+  - {fileID: -5678214650386703438}
+  - {fileID: 2128992819847080401}
+--- !u!114 &365381491533821418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
+  m_Name: Body
+  m_EditorClassIdentifier: 
+  m_ID: 0
+  m_CategoryIDs: 03ae7f79
+  m_Capacity: 1
+  m_Prefabs:
+  - {fileID: 4579487035755190459, guid: c3d47a2ace40cac43b908ca777af4e89, type: 3}
+--- !u!114 &546975502665252370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee2c1a75ff367a42ba5f16bd97e5519, type: 3}
+  m_Name: Magic
+  m_EditorClassIdentifier: 
+  m_ID: 347023102
+--- !u!114 &2128992819847080401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
+  m_Name: HitGroundAttack
+  m_EditorClassIdentifier: 
+  m_ID: 7
+  m_CategoryIDs: 03ae7f79fe26af14
+  m_Capacity: 1
+  m_Prefabs:
+  - {fileID: 7955243787721987772, guid: 6cdbad9e8909b5b4ab5bc3b32fcfe21c, type: 3}
+--- !u!114 &5187172760529776352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
+  m_Name: Breath
+  m_EditorClassIdentifier: 
+  m_ID: 1
+  m_CategoryIDs: 03ae7f79fe26af14
+  m_Capacity: 1
+  m_Prefabs:
+  - {fileID: 355650963, guid: b03c2ad97f942974ab8a83488e472220, type: 3}
+--- !u!114 &8584090150782845643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee2c1a75ff367a42ba5f16bd97e5519, type: 3}
+  m_Name: Items
+  m_EditorClassIdentifier: 
+  m_ID: 2038410755
